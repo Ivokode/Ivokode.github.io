@@ -1,0 +1,94 @@
+*{
+	font-family: sans-serif;
+	margin:0;
+	padding: 0;
+}
+
+body, html{
+	display: inline-flex;
+	height: 100%;
+}
+
+
+a{
+	text-decoration: none;
+}
+a:visited{
+	color: blue;
+}
+
+#info{
+	margin: 70px;
+	height: 100%;
+	list-style: none;
+	
+}
+#info > a{
+	margin: 70px;
+	text-decoration: none;
+	color: black;   
+}
+
+#block{
+
+	width: 300px;
+	height: 1000px;
+	margin: 0 0 0 -20px;
+	background-color: #B0C4DE;
+}
+#sobre{
+	margin: 50px 40px 0 40px;
+	
+}
+#endereco{
+	margin: -20px 0 0 0;
+}
+#titulo{
+	font-size: 20px;
+	margin: 0 0 10px 25px;
+	color: #DCDCCE;
+}
+
+#endereco, #contato{
+	margin: 10px 0 0 30px;
+}
+#foto{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin: 10px 0 30px;
+}
+
+#formacao{
+	margin: 20px 0 20px 0;
+}
+
+
+#info ul{
+	list-style: none;
+}
+
+#experiencia ul {
+	
+	margin: 10px 0 20px 0px;
+	
+}
+
+#formacao > h4{
+	font-size: 25px;
+	margin: 0 0 15px 0;
+}
+#experiencia > h5{
+	font-size: 25px;
+	margin: 0 0 19px 0;
+}
+#sobre > h3{
+	margin: 0 0 10px 0;
+}
+#oculta{
+	display: none;
+	width: 100%;
+	height: 40px;
+}
+
+
